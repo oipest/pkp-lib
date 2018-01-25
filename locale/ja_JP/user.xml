@@ -33,11 +33,11 @@
 	<message key="user.changePassword">Change Password</message>
 	<message key="user.dateLastLogin">Last login</message>
 	<message key="user.dateRegistered">Date registered</message>
-	<message key="user.editMyProfile">Edit My Profile</message>
+	<message key="user.editMyProfile">自分のプロフィールを編集する</message>
 	<message key="user.email">メールアドレス</message>
-	<message key="user.feminine">F</message>
+	<message key="user.feminine">女性</message>
 	<message key="user.firstName">First Name</message>
-	<message key="user.gender">Gender</message>
+	<message key="user.gender">性別</message>
 	<message key="user.initialsExample">Joan Alice Smith = JAS</message>
 	<message key="user.initials">Initials</message>
 	<message key="user.interests">Reviewing interests</message>
@@ -72,16 +72,16 @@
 	<message key="user.logOutAs">Logout as</message>
 	<message key="user.hello">Hello, </message>
 	<message key="user.mailingAddress">Mailing Address</message>
-	<message key="user.masculine">M</message>
+	<message key="user.masculine">男性</message>
 	<message key="user.middleName">Middle Name</message>
 	<message key="user.myAccount">My Account</message>
 	<message key="user.name">Name</message>
-	<message key="user.other">Other</message>
+	<message key="user.other">その他</message>
 	<message key="user.password">パスワード</message>
 	<message key="user.repeatPassword">パスワード（再入力）</message>
 	<message key="user.phone">Phone</message>
-	<message key="user.profile.changePasswordInstructions">Enter your current and new passwords below to change the password for your account.</message>
-	<message key="user.profile.editProfile">Edit Profile</message>
+	<message key="user.profile.changePasswordInstructions">アカウントのパスワードを変更するには、現在のパスワードと新しいパスワードを入力してください。</message>
+	<message key="user.profile.editProfile">プロフィールの編集</message>
 	<message key="user.profile.form.countryRequired">A country is required.</message>
 	<message key="user.profile.form.emailRequired">A valid email address is required.</message>
 	<message key="user.profile.form.affiliationRequired">An affiliation is required.</message>
@@ -93,7 +93,7 @@
 	<message key="user.profile.form.openAccessNotifications">Issue open access email notifications</message>
 	<message key="user.profile.form.passwordRequired">A password is required.</message>
 	<message key="user.profile.form.passwordSameAsOld">Your new password is the same as your old password.</message>
-	<message key="user.profile.form.profileImage">Profile Image</message>
+	<message key="user.profile.form.profileImage">プロフィール画像</message>
 	<message key="user.profile.form.publishedNotifications">New issue published email notifications</message>
 	<message key="user.profile.form.urlInvalid">The specified URL is not valid. Please double-check the URL and try again. (Hint: Try adding http:// to the beginning of the URL.)</message>
 	<message key="user.profile.form.usergroupRequired">A user group is required.</message>
@@ -101,8 +101,8 @@
 	<message key="user.profile.leavePasswordBlank">Leave the password fields blank to keep the current password.</message>
 	<message key="user.profile.newPassword">新しいパスワード</message>
 	<message key="user.profile.oldPassword">現在のパスワード</message>
-	<message key="user.profile">Profile</message>
-	<message key="user.profile.publicProfile">User Profile</message>
+	<message key="user.profile">プロフィール</message>
+	<message key="user.profile.publicProfile">ユーザープロフィール</message>
 	<message key="user.profile.repeatNewPassword">新しいパスワードの再入力</message>
 	<!-- Login -->
 	<message key="user.login.registerNewAccount">Register</message>
@@ -150,7 +150,7 @@
 	<message key="user.workingLanguages">Working Languages</message>
 	<message key="user.orcid">ORCID iD</message>
 	<message key="user.orcid.orcidInvalid">The ORCID iD you specified is invalid. Please include the full URI (e.g. "http://orcid.org/0000-0002-1825-0097").</message>
-	<message key="user.profile.identity">Identity</message>
+	<message key="user.profile.identity">身元</message>
 	<message key="user.profile.contact">Contact</message>
 	<message key="user.profile.public">Public</message>
 	<message key="user.apiKey">API Key</message>
