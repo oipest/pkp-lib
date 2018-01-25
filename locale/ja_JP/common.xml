@@ -166,8 +166,8 @@
 	<message key="common.itemsPerPage">Items per page</message>
 	<message key="common.favicon.altText">Favicon</message>
 	<message key="common.keywords">Keywords</message>
-	<message key="common.language">Language</message>
-	<message key="common.languages">Languages</message>
+	<message key="common.language">言語</message>
+	<message key="common.languages">言語</message>
 	<message key="common.less">Less</message>
 	<message key="common.manage">Manage</message>
 	<message key="common.mailingAddress">Mailing Address</message>
