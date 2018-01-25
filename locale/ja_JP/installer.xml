@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ja_JP/installer.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="ja_JP" full_name="日本語">
+	<message key="installer.additionalLocales">追加ロケール</message>
+	<message key="installer.administratorAccount">管理者アカウント</message>
+	<message key="installer.administratorAccountInstructions">このユーザーはサイト管理者になりシステムへの完全なアクセスができます。追加のユーザーアカウントはインストール後に作成できます。</message>
+	<message key="installer.checkNo"><![CDATA[<span class="pkp_form_error formError">NO</span>]]></message>
+	<message key="installer.checkYes">はい</message>
+	<message key="installer.clientCharset">クライアント文字セット</message>
+	<message key="installer.clientCharsetInstructions">ブラウザからデータを送受信するために使用されるエンコーディングです。</message>
+	<message key="installer.configFileError"><![CDATA[The configuration file <tt>config.inc.php</tt> does not exist or is not readable.]]></message>
+	<message key="installer.connectionCharset">接続文字セット</message>
+	<message key="installer.contentsOfConfigFile">Contents of configuration file</message>
+	<message key="installer.createDatabase">新規にデータベースを作成</message>
+	<message key="installer.createDatabaseInstructions">To use this option your database system must support remote database creation and your user account must have the appropriate permissions to create new databases. If installation fails with this option selected, manually create the database on your server and run the installer again with this option disabled.</message>
+	<message key="installer.databaseCharset">データベース文字セット</message>
+	<message key="installer.databaseDriver">データベースドライバ</message>
+	<message key="installer.databaseDriverInstructions"><![CDATA[<strong>括弧付きのデータベースドライバは必要なPHPエクステンションが読み込まれておらず、選択してもインストールに失敗する可能性があります。</strong><br />上記でサポートされていないデータベースドライバは研究目的でのみ表示されており、動作しない可能性があります。]]></message>
+	<message key="installer.databaseHost">ホスト</message>
+	<message key="installer.databaseHostInstructions">Leave the hostname blank to connect using domain sockets instead of over TCP/IP. This is not necessary with MySQL, which will automatically use sockets if "localhost" is entered, but is required with some other database servers such as PostgreSQL.</message>
+	<message key="installer.databaseName">データベース名</message>
+	<message key="installer.databasePassword">パスワード</message>
+	<message key="installer.databaseSettings">データベース設定</message>
+	<message key="installer.databaseUsername">ユーザー名</message>
+	<message key="installer.filesDir">アップロード用ディレクトリ</message>
+	<message key="installer.fileSettings">ファイル設定</message>
+	<message key="installer.form.clientCharsetRequired">A client character set must be selected.</message>
+	<message key="installer.form.databaseDriverRequired">A database driver must be selected.</message>
+	<message key="installer.form.databaseNameRequired">The database name is required.</message>
+	<message key="installer.form.emailRequired">A valid email address for the administrator account is required.</message>
+	<message key="installer.form.filesDirRequired">The directory to be used for storing uploaded files is required.</message>
+	<message key="installer.form.localeRequired">A locale must be selected.</message>
+	<message key="installer.form.passwordRequired">A password for the administrator account is required.</message>
+	<message key="installer.form.passwordsDoNotMatch">The administrator passwords do not match.</message>
+	<message key="installer.form.separateMultiple">Separate multiple values with commas</message>
+	<message key="installer.form.usernameAlphaNumeric">The administrator username can contain only alphanumeric characters, underscores, and hyphens, and must begin and end with an alphanumeric character.</message>
+	<message key="installer.form.usernameRequired">A username for the administrator account is required.</message>
+	<message key="installer.installationWrongPhp"><![CDATA[<br/><strong>WARNING: Your current version of PHP does not meet the minimum requirements for installation. It is recommended to upgrade to a more recent release of PHP.</strong>]]></message>
+	<message key="installer.installErrorsOccurred">インストール中にエラーが発生しました</message>
+	<message key="installer.installerSQLStatements">SQL statements for installation</message>
+	<message key="installer.installFileError"><![CDATA[The installation file <tt>dbscripts/xml/install.xml</tt> does not exist or is not readable.]]></message>
+	<message key="installer.installFilesDirError">アップロードされたファイル用のディレクトリが存在しないか書き込み可能ではありません。</message>
+	<message key="installer.installParseDBFileError"><![CDATA[Error parsing the database installation file <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[Error parsing the email template file <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseFilterConfigFileError"><![CDATA[Error parsing the filter configuration file <tt>{$file}</tt>.]]></message>
+	<message key="installer.unsupportedUpgradeError">Upgrade unsupported. See docs/UPGRADE-UNSUPPORTED for details.</message>
+	<message key="installer.locale">Locale</message>
+	<message key="installer.locale.maybeIncomplete">Marked locales may be incomplete.</message>
+	<message key="installer.localeSettings">ロケール設定</message>
+	<message key="installer.oaiSettings">OAI設定</message>
+	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[メタデータ収集のためのプロトコルである<a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a>プロトコルを使用して、このサイトからインデックスされたメタデータレコードを識別するために使用される一意の識別子。]]></message>
+	<message key="installer.oaiRepositoryId">リポジトリ識別子</message>
+	<message key="installer.publicFilesDirError">The public files directory does not exist or is not writable.</message>
+	<message key="installer.releaseNotes">Release Notes</message>
+	<message key="installer.preInstallationInstructionsTitle">プレインストール手順</message>
+	<message key="installer.preInstallationInstructions"><![CDATA[
+		<p>1. 以下のファイルおよびディレクトリ（とそのコンテンツ）が書き込み可能でなければなりません:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> が書き込み可能である（任意）: {$writable_config}</li>
+			<li><tt>public/</tt> が書き込み可能である: {$writable_public}</li>
+			<li><tt>cache/</tt> が書き込み可能である: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> が書き込み可能である: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> が書き込み可能である: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> が書き込み可能である: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. アップロードされたファイルを作成し、書き込み可能にしなければなりません（以下の『ファイル設定』をご確認ください）。</p>]]>
+	</message>
+	<message key="installer.configureXSLMessage"><![CDATA[<p>Your PHP installation does not have the XSL module enabled. Either enable it, or configure the xslt_command parameter in your config.inc.php file.</p>]]></message>
+	<message key="installer.beacon">ビーコン</message>
+	<message key="installer.beacon.enable">統計情報とセキュリティ警告の目的でのみ、PKPへの一意のサイトIDとOAIベースURLを指定します。</message>
+</locale>
