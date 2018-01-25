@@ -38,7 +38,7 @@
 	<message key="common.navigation.site">Site Navigation</message>
 	<message key="common.navigation.siteContext">Site Context Navigation</message>
 	<message key="common.navigation.user">User Navigation</message>
-	<message key="common.tasks">Tasks</message>
+	<message key="common.tasks">タスク</message>
 	<message key="common.list">List</message>
 	<message key="common.grid">Grid</message>
 	<message key="common.confirmDelete">Are you sure you wish to delete this item? This action cannot be undone.</message>
@@ -513,7 +513,7 @@
 	<message key="grid.action.markNew">Mark New</message>
 	<message key="grid.action.markRead">Mark Read</message>
 
-	<message key="dashboard.tasks">Tasks</message>
+	<message key="dashboard.tasks">タスク</message>
 	<message key="dashboard.myQueue">My Queue</message>
 
 	<message key="review.blindPeerReview">
