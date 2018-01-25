@@ -36,7 +36,7 @@
 	<message key="user.editMyProfile">自分のプロフィールを編集する</message>
 	<message key="user.email">メールアドレス</message>
 	<message key="user.feminine">女性</message>
-	<message key="user.firstName">First Name</message>
+	<message key="user.firstName">名</message>
 	<message key="user.gender">性別</message>
 	<message key="user.initialsExample">Joan Alice Smith = JAS</message>
 	<message key="user.initials">Initials</message>
@@ -44,7 +44,7 @@
 	<message key="user.interests.description">(Separate interests by pressing the enter or comma key)</message>
 	<message key="user.gossip">Private Notes</message>
 	<message key="user.group">User Group</message>
-	<message key="user.lastName">Last Name</message>
+	<message key="user.lastName">姓</message>
 	<message key="user.profile.form.profileImageInvalid">Invalid profile image format or image too big. Accepted formats are .gif, .jpg, or .png, and the image must not exceed 150x150 pixels.</message>
 	<message key="user.login.accountDisabledWithReason">Your account has been disabled for the following reason: {$reason}</message>
 	<message key="user.login.accountDisabled">Your account has been disabled. Please contact the administrator for more information.</message>
@@ -73,9 +73,9 @@
 	<message key="user.hello">Hello, </message>
 	<message key="user.mailingAddress">Mailing Address</message>
 	<message key="user.masculine">男性</message>
-	<message key="user.middleName">Middle Name</message>
+	<message key="user.middleName">ミドルネーム</message>
 	<message key="user.myAccount">My Account</message>
-	<message key="user.name">Name</message>
+	<message key="user.name">名前</message>
 	<message key="user.other">その他</message>
 	<message key="user.password">パスワード</message>
 	<message key="user.repeatPassword">パスワード（再入力）</message>
