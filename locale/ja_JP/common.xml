@@ -385,7 +385,7 @@
 	<message key="locale.supported">Supported locales</message>
 	<message key="navigation.access"><![CDATA[Users &amp; Roles]]></message>
 	<message key="navigation.about">About</message>
-	<message key="navigation.admin">Administration</message>
+	<message key="navigation.admin">管理</message>
 	<message key="navigation.archives">Archives</message>
 	<message key="navigation.breadcrumbLabel">You are here:</message>
 	<message key="navigation.breadcrumbSeparator">/</message>
