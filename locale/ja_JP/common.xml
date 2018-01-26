@@ -292,7 +292,7 @@
 	<message key="defaultMetric.availableMetrics">Available Metrics</message>
 	<message key="editor.submissionReview.uploadFile">Upload Review File</message>
 	<message key="editor.submissionReview.uploadAttachment">Upload File</message>
-	<message key="email.addAttachment"添付ファイルを追加</message>
+	<message key="email.addAttachment">添付ファイルを追加</message>
 	<message key="email.addBccRecipient">BCCを追加</message>
 	<message key="email.addCcRecipient">CCを追加</message>
 	<message key="email.addToRecipient">受信者を追加</message>
