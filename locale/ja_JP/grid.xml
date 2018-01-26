@@ -13,16 +13,16 @@
 
 <locale name="ja_JP" full_name="日本語">
 	<!-- Common -->
-	<message key="grid.noItems">No Items</message>
-	<message key="grid.settings">Settings</message>
-	<message key="grid.noAuditors">No Auditors</message>
+	<message key="grid.noItems">アイテムがありません</message>
+	<message key="grid.settings">設定</message>
+	<message key="grid.noAuditors">監査役がいません</message>
 	<message key="grid.remotelyHostedItem">This item is remotely hosted.</message>
 
-	<message key="grid.action.uninstall">Uninstall</message>
-	<message key="grid.action.manageAccess">Manage Access</message>
-	<message key="grid.action.sort">Sort</message>
-	<message key="grid.action.addItem">Add Item</message>
-	<message key="grid.action.addNote">Add Note</message>
+	<message key="grid.action.uninstall">アンインストール</message>
+	<message key="grid.action.manageAccess">アクセス管理</message>
+	<message key="grid.action.sort">並べ替え</message>
+	<message key="grid.action.addItem">アイテムを追加</message>
+	<message key="grid.action.addNote">ノートを追加</message>
 	<message key="grid.action.addQuery">Add discussion</message>
 	<message key="grid.action.readQuery">Read discussion</message>
 	<message key="grid.action.deleteQuery">Delete discussion</message>
