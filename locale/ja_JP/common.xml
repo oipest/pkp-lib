@@ -261,7 +261,7 @@
 	<message key="common.updated">更新されました</message>
 	<message key="common.uploadedDate">アップロード日</message>
 	<message key="common.uploadedFile">アップロードファイル</message>
-	<message key="common.upload">Upload</message>
+	<message key="common.upload">アップロード</message>
 	<message key="common.uploadFailed">The file could not be uploaded or revised.</message>
 	<message key="common.invalidFileType">No file uploaded or invalid file type!</message>
 	<message key="common.homepageImage.altText">Homepage Image</message>

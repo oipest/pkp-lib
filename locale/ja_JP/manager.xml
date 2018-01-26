@@ -14,7 +14,7 @@
 <locale name="ja_JP" full_name="日本語">
 	<!-- Website settings -->
 	<message key="manager.website.information">Information</message>
-	<message key="manager.website.appearance">Appearance</message>
+	<message key="manager.website.appearance">外観</message>
 	<message key="manager.website.imageFileRequired">An image file is required. Please ensure that you have chosen and uploaded a file.</message>
 
 	<message key="manager.announcements">Announcements</message>
@@ -239,21 +239,21 @@
 	<message key="manager.setup.homepageImageInvalid">Invalid homepage image format or upload failed. Accepted formats are .gif, .jpg, or .png.</message>
 	<message key="manager.setup.homeTitleImageInvalid">Invalid homepage header title image format or upload failed. Accepted formats are .gif, .jpg, or .png.</message>
 	<message key="manager.setup.information.descriptionTitle">Descriptions</message>
-	<message key="manager.setup.layout.theme">Theme</message>
+	<message key="manager.setup.layout.theme">テーマ</message>
 	<message key="manager.setup.layout.themeDescription">New themes may be installed from the Plugins tab at the top of this page.</message>
 	<message key="manager.setup.layout.blockManagement">Sidebar management</message>
 	<message key="manager.setup.layout.sidebar">Sidebar</message>
 	<message key="manager.setup.layout.unselected">Unselected</message>
 	<message key="manager.setup.loggingAndAuditing">Logging and Auditing</message>
-	<message key="manager.setup.logo">Logo</message>
+	<message key="manager.setup.logo">ロゴ</message>
 	<message key="manager.setup.notifications">Notification of Author Submission</message>
 	<message key="manager.setup.notifications.copySpecifiedAddress">Send a copy to this email address</message>
 	<message key="manager.setup.notifications.description">Authors are automatically sent an email acknowledging their submission. You may have copies of this email sent to the following:</message>
 	<message key="manager.setup.openAccessPolicy">Open Access Policy</message>
 	<message key="manager.setup.openAccessPolicy.description">If providing immediate free access to all published content, you may enter a description of your Open Access Policy.</message>
 	<message key="manager.setup.pageHeaderLogoImageInvalid">Invalid page header logo image format or upload failed. Accepted formats are .gif, .jpg, or .png.</message>
-	<message key="manager.setup.pageFooter">Page Footer</message>
-	<message key="manager.setup.pageFooterDescription">Enter any images, text or HTML code that you'd like to appear at the bottom of your website.</message>
+	<message key="manager.setup.pageFooter">ページフッター</message>
+	<message key="manager.setup.pageFooterDescription">ウェブサイトの下部に表示する画像、テキスト、HTMLコードを入力します。</message>
 	<message key="manager.setup.peerReview.description">Outline the peer review policy and processes for readers and authors. This description often includes the number of reviewers typically used in reviewing a submission, the criteria by which reviewers are asked to judge submissions, expected time required to conduct the reviews, and the principles used to select reviewers.</message>
 	<message key="manager.setup.principalContact">担当連絡先</message>
 	<message key="manager.setup.principalContactDescription">連絡先の詳細を入力します。通常、担当編集者、編集責任者、または管理者を入力します。公開されているウェブサイトに表示することができます。</message>
@@ -416,7 +416,7 @@
 	<message key="manager.setup.genres.key.description">An optional short symbolic identifer for this genre.</message>
 	<message key="manager.setup.genres.key.exists">The key already exists.</message>
 	<message key="manager.setup.genres.key.alphaNumeric">The key can contain only alphanumeric characters, underscores, and hyphens, and must begin and end with an alphanumeric character.</message>
-	<message key="manager.settings.wizard">Settings Wizard</message>
+	<message key="manager.settings.wizard">設定ウィザード</message>
 	<message key="manager.users.roleRequired">You need to select at least one role to be associated with this user.</message>
 	<message key="manager.website">Website</message>
 	<message key="manager.website.title">Website Settings</message>

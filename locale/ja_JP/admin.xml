@@ -84,9 +84,9 @@
 	<message key="admin.settings.siteLanguage">Site language</message>
 	<message key="admin.settings.siteStyleSheetInvalid">Invalid site style sheet format. Accepted format is .css.</message>
 	<message key="admin.settings.siteStyleSheet">Site style sheet</message>
-	<message key="admin.settings.siteLogo">Site Logo</message>
-	<message key="admin.settings.siteTitle">Site Name</message>
-	<message key="admin.settings.siteTheme">Site Theme</message>
+	<message key="admin.settings.siteLogo">サイトロゴ</message>
+	<message key="admin.settings.siteTitle">サイト名</message>
+	<message key="admin.settings.siteTheme">サイトテーマ</message>
 	<message key="admin.siteAdmin">サイト管理</message>
 	<message key="admin.siteManagement">サイト管理</message>
 	<message key="admin.siteSettings">Site Settings</message>
