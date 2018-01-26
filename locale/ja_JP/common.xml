@@ -105,7 +105,7 @@
 	<message key="common.confirmed.date">確認されました: {$dateConfirmed}</message>
 	<message key="common.content">Content</message>
 	<message key="common.contents">Contents</message>
-	<message key="common.continue">続く</message>
+	<message key="common.continue">次へ</message>
 	<message key="common.copy">Copy</message>
 	<message key="common.country">国</message>
 	<message key="common.create">作成</message>
