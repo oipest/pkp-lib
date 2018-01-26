@@ -13,9 +13,9 @@
 
 <locale name="ja_JP" full_name="日本語">
 	<message key="user.accountInformation">Account Information</message>
-	<message key="user.affiliation">Affiliation</message>
+	<message key="user.affiliation">所属</message>
 	<message key="user.affiliation.description">(Your institution, e.g. "Simon Fraser University")</message>
-	<message key="user.affiliations">Affiliations</message>
+	<message key="user.affiliations">所属</message>
 	<message key="user.authorization.accessDenied">Access denied.</message>
 	<message key="user.authorization.processAuthenticationTokenRequired">The process authentication token is missing or invalid.</message>
 	<message key="user.authorization.contextRequired">You cannot call this operation without a context (press, journal, conference, etc).</message>
@@ -79,7 +79,7 @@
 	<message key="user.other">その他</message>
 	<message key="user.password">パスワード</message>
 	<message key="user.repeatPassword">パスワード（再入力）</message>
-	<message key="user.phone">Phone</message>
+	<message key="user.phone">電話番号</message>
 	<message key="user.profile.changePasswordInstructions">アカウントのパスワードを変更するには、現在のパスワードと新しいパスワードを入力してください。</message>
 	<message key="user.profile.editProfile">プロフィールの編集</message>
 	<message key="user.profile.form.countryRequired">A country is required.</message>
@@ -143,7 +143,7 @@
 	<message key="user.sendPassword.description">Send me a confirmation email including my username and password</message>
 	<message key="user.signature">Signature</message>
 	<message key="user.suffix">Suffix</message>
-	<message key="user.title">Title</message>
+	<message key="user.title">役職</message>
 	<message key="user.url">URL</message>
 	<message key="user.userHome">User Home</message>
 	<message key="user.username">ユーザー名</message>

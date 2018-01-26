@@ -255,8 +255,8 @@
 	<message key="manager.setup.pageFooter">Page Footer</message>
 	<message key="manager.setup.pageFooterDescription">Enter any images, text or HTML code that you'd like to appear at the bottom of your website.</message>
 	<message key="manager.setup.peerReview.description">Outline the peer review policy and processes for readers and authors. This description often includes the number of reviewers typically used in reviewing a submission, the criteria by which reviewers are asked to judge submissions, expected time required to conduct the reviews, and the principles used to select reviewers.</message>
-	<message key="manager.setup.principalContact">Principal Contact</message>
-	<message key="manager.setup.principalContactDescription">Enter contact details, typically for a principal editorship, managing editorship, or administrative staff position, which can be displayed on your publicly accessible website.</message>
+	<message key="manager.setup.principalContact">担当連絡先</message>
+	<message key="manager.setup.principalContactDescription">連絡先の詳細を入力します。通常、担当編集者、編集責任者、または管理者を入力します。公開されているウェブサイトに表示することができます。</message>
 	<message key="manager.setup.privacyStatement">Privacy Statement</message>
 	<message key="manager.setup.privacyStatement.description">This statement will appear during Author Submission and on the publicly available About page.</message>
 	<message key="manager.setup.reviewOptions.numWeeksPerResponse">Weeks allowed to accept or decline a review request</message>
