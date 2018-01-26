@@ -93,7 +93,7 @@
 		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a>.
 	</div>
 	]]></message>
-	<message key="common.changesSaved">Your changes have been saved.</message>
+	<message key="common.changesSaved">変更が保存されました。</message>
 	<message key="common.chooseOne">1つ選択してください</message>
 	<message key="common.close">閉じる</message>
 	<message key="common.closePanel">パネルを閉じる</message>
