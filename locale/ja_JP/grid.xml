@@ -40,7 +40,7 @@
 	<message key="grid.action.deleteSection">Delete Section</message>
 	<message key="grid.action.editorialHistory">Editorial History</message>
 	<message key="grid.action.remove">削除</message>
-	<message key="grid.action.edit">Edit</message>
+	<message key="grid.action.edit">編集</message>
 	<message key="grid.action.approve">Approve</message>
 	<message key="grid.action.disapprove">Disapprove</message>
 	<message key="grid.action.setApproval">Set Approval</message>
