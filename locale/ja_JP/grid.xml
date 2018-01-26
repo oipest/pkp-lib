@@ -39,7 +39,7 @@
 	<message key="grid.action.export">Export</message>
 	<message key="grid.action.deleteSection">Delete Section</message>
 	<message key="grid.action.editorialHistory">Editorial History</message>
-	<message key="grid.action.remove">Remove</message>
+	<message key="grid.action.remove">削除</message>
 	<message key="grid.action.edit">Edit</message>
 	<message key="grid.action.approve">Approve</message>
 	<message key="grid.action.disapprove">Disapprove</message>
@@ -57,7 +57,7 @@
 	<message key="grid.action.extendAll">Extend all</message>
 	<message key="grid.action.collapse">Collapse</message>
 	<message key="grid.action.collapseAll">Collapse all</message>
-	<message key="grid.action.wizard">Settings wizard</message>
+	<message key="grid.action.wizard">設定ウィザード</message>
 	<message key="grid.action.moveItem">Move Item</message>
 	<message key="grid.action.downloadAll">Download all files as an archive</message>
 	<message key="grid.action.readReview">Read this review</message>

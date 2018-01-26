@@ -101,8 +101,8 @@
 	<message key="common.complete">完了</message>
 	<message key="common.completed">完了しました</message>
 	<message key="common.completed.date">完了しました: {$dateCompleted}</message>
-	<message key="common.confirm">Confirm</message>
-	<message key="common.confirmed.date">Confirmed: {$dateConfirmed}</message>
+	<message key="common.confirm">確認</message>
+	<message key="common.confirmed.date">確認されました: {$dateConfirmed}</message>
 	<message key="common.content">Content</message>
 	<message key="common.contents">Contents</message>
 	<message key="common.continue">続く</message>
@@ -321,7 +321,7 @@
 	<message key="email.to">To</message>
 	<message key="form.url.invalid">The specified URL is invalid. Please check it and try again.</message>
 	<message key="form.confirmSubmit">Are you sure you want to submit this form?</message>
-	<message key="form.confirmSubmit.title">Confirm</message>
+	<message key="form.confirmSubmit.title">確認</message>
 	<message key="form.emailRequired">An email address is required.</message>
 	<message key="form.dataHasChanged">The data on this form has changed. Do wish to continue without saving?</message>
 	<message key="form.errorsOccurred">処理中にエラーが発生しました</message>
@@ -347,7 +347,7 @@
 	<message key="icon.checked.alt">Checked</message>
 	<message key="icon.comment.alt">Comment</message>
 	<message key="icon.delete.alt">削除</message>
-	<message key="icon.edit.alt">Edit</message>
+	<message key="icon.edit.alt">編集</message>
 	<message key="icon.folder.alt">Folder</message>
 	<message key="icon.font_large.alt">Large</message>
 	<message key="icon.font_medium.alt">Medium</message>
@@ -454,8 +454,8 @@
 	<message key="notification.removedNote">Note deleted.</message>
 	<message key="notification.removedFile">Removed file.</message>
 	<message key="notification.removedSubmission">Removed submission.</message>
-	<message key="notification.notification">Notification</message>
-	<message key="notification.notifications">Notifications</message>
+	<message key="notification.notification">お知らせ</message>
+	<message key="notification.notifications">お知らせs</message>
 	<message key="notification.notificationsNew">({$numNew} new)</message>
 	<message key="notification.notificationsDescription">You have {$unreadCount} unread notifications and {$readCount} read notifications.<![CDATA[  <a href="{$settingsUrl}">Click here</a> to change your notification settings.]]></message>
 	<message key="notification.sentNotification">Notification sent.</message>

@@ -148,7 +148,7 @@
 	<message key="manager.people.noMatchingUsers">No matching users.</message>
 	<message key="manager.people.noneEnrolled">No enrolled users.</message>
 	<message key="manager.people">People</message>
-	<message key="manager.people.remove">Remove</message>
+	<message key="manager.people.remove">削除</message>
 	<message key="manager.people.saveAndCreateAnotherUser">Save and Create Another</message>
 	<message key="manager.people.signInAs">Log In As</message>
 	<message key="manager.people.signInAsUser">Log In as User</message>
@@ -275,7 +275,7 @@
 	<message key="manager.siteAccessOptions.siteAccessOptions">Site Access Options</message>
 	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage}%)</message>
 	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} new)</message>
-	<message key="manager.users">Users</message>
+	<message key="manager.users">ユーザー</message>
 	<message key="plugins.categories.metadata">Metadata Plugins</message>
 	<message key="plugins.categories.metadata.description">Metadata Plugins implement additional meta-data standards.</message>
 	<message key="plugins.categories.auth">Authorization Plugins</message>
