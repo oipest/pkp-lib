@@ -455,7 +455,7 @@
 	<message key="notification.removedFile">Removed file.</message>
 	<message key="notification.removedSubmission">Removed submission.</message>
 	<message key="notification.notification">お知らせ</message>
-	<message key="notification.notifications">お知らせs</message>
+	<message key="notification.notifications">お知らせ</message>
 	<message key="notification.notificationsNew">({$numNew} new)</message>
 	<message key="notification.notificationsDescription">You have {$unreadCount} unread notifications and {$readCount} read notifications.<![CDATA[  <a href="{$settingsUrl}">Click here</a> to change your notification settings.]]></message>
 	<message key="notification.sentNotification">Notification sent.</message>
