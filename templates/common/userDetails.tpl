@@ -13,7 +13,6 @@
  *   $disableAuthSourceSection: Disable Auth section
  *   $disablePasswordSection: Disable Password section
  *   $disableSendNotifySection: Disable SendNotify section
- *   $disableGenderSection: Disable Gender section
  *   $disableSalutationSection: Disable Salutation section
  *   $disableInitialsSection: Disable Initials section
  *   $disablePhoneSection: Disable Phone section
@@ -112,9 +111,6 @@
 {capture assign="extraContent"}
 	{fbvFormArea id="userFormExtendedLeft"}
 		{fbvFormSection}
-			{if !$disableGenderSection}
-				{fbvElement type="select" label="user.gender" name="gender" id="gender" defaultLabel="" defaultValue="" from=$genderOptions translate="true" selected=$gender inline=true size=$fbvStyles.size.SMALL}
-			{/if}
 			{if !$disableSalutationSection}
 				{fbvElement type="text" label="user.salutation" name="salutation" id="salutation" value=$salutation maxlength="40" inline=true size=$fbvStyles.size.SMALL}
 			{/if}
@@ -173,18 +169,20 @@
 	{/fbvFormArea}
 {/capture}
 
-{if $extraContentSectionUnfolded}
-	{fbvFormSection title="grid.user.userDetails"}
-		{$extraContent}
-	{/fbvFormSection}
-{else}
-	<div id="userExtraFormFields" class="left full">
-		{include file="controllers/extrasOnDemand.tpl"
-			id="userExtras"
-			widgetWrapper="#userExtraFormFields"
-			moreDetailsText="grid.user.moreDetails"
-			lessDetailsText="grid.user.lessDetails"
-			extraContent=$extraContent
-		}
-	</div>
-{/if}
+{fbvFormSection}
+	{if $extraContentSectionUnfolded}
+		{fbvFormSection title="grid.user.userDetails"}
+			{$extraContent}
+		{/fbvFormSection}
+	{else}
+		<div id="userExtraFormFields" class="left full">
+			{include file="controllers/extrasOnDemand.tpl"
+				id="userExtras"
+				widgetWrapper="#userExtraFormFields"
+				moreDetailsText="grid.user.moreDetails"
+				lessDetailsText="grid.user.lessDetails"
+				extraContent=$extraContent
+			}
+		</div>
+	{/if}
+{/fbvFormSection}

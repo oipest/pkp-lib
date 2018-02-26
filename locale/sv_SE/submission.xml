@@ -243,7 +243,7 @@
 
 	<!-- Stage Participants -->
 	<message key="submission.stageParticipants.notify">Meddela</message>
-	
+
 	<message key="submission.lastModified">Senast ändrad</message>
 	<message key="submission.layout.addGalley">Lägg till en layout-publiceringsversion</message>
 	<message key="submission.layout.confirmDeleteGalley">Är du säker på att du vill ta bort den här publiceringsversionen permanent?</message>
@@ -382,7 +382,7 @@
 	<message key="workflow.stage.any">Vilket steg som helst</message>
 	<message key="workflow.stage">Steg</message>
 
-	
+
 	<!-- Submission status -->
 	<message key="submission.status.editorial">Under manusredigering</message>
 	<message key="submission.status.production">Under korrekturläsning</message>
@@ -424,7 +424,6 @@
 	<!-- Review Round Status Keys -->
 	<message key="editor.submission.roundStatus.revisionsRequested">Bearbetningar begärda.</message>
 	<message key="editor.submission.roundStatus.revisionsSubmitted">Bearbetningar har skickats in.</message>
-	<message key="editor.submission.roundStatus.resubmitted">Bidraget har skickats in för granskning på nytt.</message>
 	<message key="editor.submission.roundStatus.sentToExternal">Skickat för extern granskning.</message>
 	<message key="editor.submission.roundStatus.accepted">Bidrag accepterat.</message>
 	<message key="editor.submission.roundStatus.declined">Bidrag refuserat.</message>
@@ -436,7 +435,7 @@
 	<message key="editor.submission.roundStatus.pendingRecommendations">Väntar på rekommendationer från redaktörer.</message>
 	<message key="editor.submission.roundStatus.recommendationsReady">Det har registrerats nya redaktionsrekommendationer.</message>
 	<message key="editor.submission.roundStatus.recommendationsCompleted">Alla rekommendationer har inkommit och nu behövs ett redaktörsbeslut.</message>
-	
+
 	<!-- Participants -->
 	<message key="editor.submission.stageParticipants">Deltagare</message>
 
@@ -557,12 +556,12 @@
 	<message key="submission.copyrightStatement">Copyright (c) {$copyrightYear} {$copyrightHolder}</message>
 	<message key="submission.licenseURLValid">Ange en giltig extern URL (inklusive http://).</message>
 	<message key="submission.licenseURL">Licens-URL</message>
-	<message key="submission.license.cc.by-nc-nd4">CC Erkännande-Icke-Kommersiell-IngaBearbetningar 4.0</message>
-	<message key="submission.license.cc.by-nc4">CC Erkännande-Icke-Kommersiell 4.0</message>
-	<message key="submission.license.cc.by-nc-sa4">CC Erkännande-Icke-Kommersiell-DelaPåSammaVillkor 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4">CC Erkännande-IckeKommersiell-IngaBearbetningar 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC Erkännande-IckeKommersiell 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC Erkännande-IckeKommersiell-DelaLika 4.0</message>
 	<message key="submission.license.cc.by-nd4">CC Erkännande-IngaBearbetningar 4.0</message>
 	<message key="submission.license.cc.by4">CC Erkännande 4.0</message>
-	<message key="submission.license.cc.by-sa4">CC Erkännande-DelaPåSammaVillkor 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC Erkännande-DelaLika 4.0</message>
 	<message key="submission.license.cc.by-nc-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons-licens" src="//i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><p>Detta verk är licensierat under en <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Erkännande-Ickekommersiell-IngaBearbetningar 4.0 Internationell-licens</a>.</p>]]></message>
 	<message key="submission.license.cc.by-nc4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons-licens" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>Detta verk är licensierat under en <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Detta verk är licensierat under en <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Erkännande-IckeKommersiell 4.0 Internationell-licens</a>.</p>]]></message>
 	<message key="submission.license.cc.by-nc-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-licens" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>Detta verk är licensierat under en <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Erkännande-IckeKommersiell-DelaLika 4.0 Internationell Licens</a>.</p>]]></message>
@@ -596,12 +595,9 @@
 	<message key="submission.list.responseDue">Deadline för svar</message>
 	<message key="submission.list.reviewDue">Deadline för granskning</message>
 	<message key="submission.list.confirmDelete">Radera bidrag?</message>
-	<message key="submission.list.filter">Filter</message>
-	<message key="submission.list.filterRemove">Rensa filter: {$filterTitle}</message>
 	<message key="submission.list.itemOrdererUp">Flytta up {$itemTitle} i listan</message>
 	<message key="submission.list.itemOrdererDown">Flytta ned {$itemTitle} i listan</message>
 	<message key="submission.list.viewSubmission">Visa bidrag</message>
-	<message key="submission.list.clearSearch">Rensa söksträng</message>
 	<message key="submission.list.reviewsCompleted">Tilldelade granskningar slutförda</message>
 	<message key="submission.list.revisionsSubmitted">Bearbetningar insända</message>
 	<message key="submission.list.copyeditsSubmitted">Manusredigerade filer insända</message>

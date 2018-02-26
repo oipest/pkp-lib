@@ -428,7 +428,6 @@
 	<!-- Review Round Status Keys -->
 	<message key="editor.submission.roundStatus.revisionsRequested">Überarbeitungen wurden angefordert.</message>
 	<message key="editor.submission.roundStatus.revisionsSubmitted">Überarbeitungen wurden eingereicht.</message>
-	<message key="editor.submission.roundStatus.resubmitted">Beitrag wurde erneut zur Begutachtung eingereicht.</message>
 	<message key="editor.submission.roundStatus.sentToExternal">Zur externen Begutachtung gesendet.</message>
 	<message key="editor.submission.roundStatus.accepted">Beitrag akzeptiert.</message>
 	<message key="editor.submission.roundStatus.declined">Beitrag abgelehnt.</message>
@@ -600,12 +599,9 @@
 	<message key="submission.list.responseDue">Antwort fällig</message>
 	<message key="submission.list.reviewDue">Gutachten fällig</message>
 	<message key="submission.list.confirmDelete">Einreichung löschen?</message>
-	<message key="submission.list.filter">Filter</message>
-	<message key="submission.list.filterRemove">Filter löschen: {$filterTitle}</message>
 	<message key="submission.list.itemOrdererUp">Position von {$itemTitle} nach oben setzen</message>
 	<message key="submission.list.itemOrdererDown">Position von {$itemTitle} nach unten setzen</message>
 	<message key="submission.list.viewSubmission">Einreichung ansehen</message>
-	<message key="submission.list.clearSearch">Suchbegriffe löschen</message>
 	<message key="submission.list.reviewsCompleted">Zugeteilte Gutachten fertiggestellt</message>
 	<message key="submission.list.revisionsSubmitted">Überarbeitungen eingereicht</message>
 	<message key="submission.list.copyeditsSubmitted">Lektorierte Dateien eingereicht</message>

@@ -85,7 +85,6 @@ class UserXmlPKPUserFilter extends NativeImportFilter {
 			case 'initials': $user->setInitials($n->textContent); break;
 			case 'salutation': $user->setSalutation($n->textContent); break;
 			case 'suffix': $user->setSuffix($n->textContent); break;
-			case 'gender': $user->setGender($n->textContent); break;
 			case 'affiliation': $user->setAffiliation($n->textContent, $n->getAttribute('locale')); break;
 			case 'country': $user->setCountry($n->textContent); break;
 			case 'email': $user->setEmail($n->textContent); break;
@@ -95,7 +94,7 @@ class UserXmlPKPUserFilter extends NativeImportFilter {
 			case 'billing_address': $user->setBillingAddress($n->textContent); break;
 			case 'mailing_address': $user->setMailingAddress($n->textContent); break;
 			case 'biography': $user->setBiography($n->textContent, $n->getAttribute('locale')); break;
-			case 'gossip': $user->setGossip($n->textContent, $n->getAttribute('locale')); break;
+			case 'gossip': $user->setGossip($n->textContent); break;
 			case 'signature': $user->setSignature($n->textContent, $n->getAttribute('locale')); break;
 			case 'date_registered': $user->setDateRegistered($n->textContent); break;
 			case 'date_last_login': $user->setDateLastLogin($n->textContent); break;

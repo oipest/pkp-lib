@@ -439,7 +439,9 @@
 	<!-- Ключи статуса раунда рецензирования -->
 	<message key="editor.submission.roundStatus.revisionsRequested">Новые версии были запрошены.</message>
 	<message key="editor.submission.roundStatus.revisionsSubmitted">Новые версии были отправлены.</message>
-	<message key="editor.submission.roundStatus.resubmitted">Материал был повторно отправлен на рецензию.</message>
+	<message key="editor.submission.roundStatus.resubmitForReview">Материал нужно повторно отправить на рецензирование.</message>
+	<message key="editor.submission.roundStatus.submissionResubmitted">Материал был повторно отправлен на рецензирование.</message>
+
 	<message key="editor.submission.roundStatus.sentToExternal">Отправлен на внешнее рецензирование.</message>
 	<message key="editor.submission.roundStatus.accepted">Материал принят.</message>
 	<message key="editor.submission.roundStatus.declined">Материал отклонен.</message>
@@ -612,12 +614,9 @@
 	<message key="submission.list.responseDue">Срок ответа на запрос</message>
 	<message key="submission.list.reviewDue">Срок сдачи рецензии</message>
 	<message key="submission.list.confirmDelete">Удалить материал?</message>
-	<message key="submission.list.filter">Фильтры</message>
-	<message key="submission.list.filterRemove">Сбросить фильтр: {$filterTitle}</message>
 	<message key="submission.list.itemOrdererUp">Поднять вверх «{$itemTitle}»</message>
 	<message key="submission.list.itemOrdererDown">Опустить вниз «{$itemTitle}»</message>
 	<message key="submission.list.viewSubmission">Показать материал</message>
-	<message key="submission.list.clearSearch">Очистить фразу поиска</message>
 	<message key="submission.list.reviewsCompleted">Завершено назначенных рецензий</message>
 	<message key="submission.list.revisionsSubmitted">Отправлено новых версий</message>
 	<message key="submission.list.copyeditsSubmitted">Отправлено файлов, прошедших литературное редактирование</message>
@@ -625,4 +624,5 @@
 	<message key="submission.list.filesPrepared">Подготовлено файлов</message>
 	<message key="submission.list.discussions">Открытых обсуждений</message>
 	<message key="submission.list.incompleteSubmissionNotice">Этот материал должен быть завершен до того, как редактор будет его рецензировать.</message>
+	<message key="submission.list.currentStage">Сейчас на этапе «{$stage}».</message>
 </locale>

@@ -101,9 +101,8 @@ class PKPUserUserXmlFilter extends NativeExportFilter {
 
 		$userNode->appendChild($doc->createElementNS($deployment->getNamespace(), 'username', htmlspecialchars($user->getUsername(), ENT_COMPAT, 'UTF-8')));
 
-		if (is_array($user->getGossip(null))) {
-			$this->createLocalizedNodes($doc, $userNode, 'gossip', $user->getGossip(null));
-		}
+		$this->createOptionalNode($doc, $userNode, 'gossip', $user->getGossip());
+
 		if (is_array($user->getSignature(null))) {
 			$this->createLocalizedNodes($doc, $userNode, 'signature', $user->getSignature(null));
 		}
@@ -119,7 +118,6 @@ class PKPUserUserXmlFilter extends NativeExportFilter {
 		$this->createOptionalNode($doc, $userNode, 'salutation', $user->getSalutation());
 		$this->createOptionalNode($doc, $userNode, 'initials', $user->getInitials());
 		$this->createOptionalNode($doc, $userNode, 'suffix', $user->getSuffix());
-		$this->createOptionalNode($doc, $userNode, 'gender', $user->getGender());
 		$this->createOptionalNode($doc, $userNode, 'date_registered', $user->getDateRegistered());
 		$this->createOptionalNode($doc, $userNode, 'date_last_login', $user->getDateLastLogin());
 		$this->createOptionalNode($doc, $userNode, 'date_last_email', $user->getDateLastEmail());
